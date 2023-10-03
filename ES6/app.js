@@ -1,7 +1,7 @@
 //console.log('hello JS');
 "use strict"
 
-var name = "alamin";
+/* var name = "alamin";
 let id = 123;
 
 let students = [1, 'alamin', 3.5];
@@ -19,7 +19,7 @@ const f1 = (a, b=5)=>a+b;
 //console.log(f1(1));
 
 const ids = [1,4,5,6];
-const newIds = [...ids, 101];
+const newIds = [...ids, 101]; */
 //console.log(newIds);
 
 // const f2 = (...a)=>{
@@ -47,13 +47,13 @@ const newIds = [...ids, 101];
 // }
 
 
-const f3 = (f)=>{
+/* const f3 = (f)=>{
     setTimeout(() => {
         console.log("calling F1");
         f('job done');
     }, 3000);
     //f('job done');
-}
+} */
 
 // f3((result)=>{
 //     console.log('calling F5 with result:'+result);
@@ -66,16 +66,14 @@ const f3 = (f)=>{
 // console.log('test');
 
 
-class Person {
+/* class Person {
     name;
     constructor (name){ 
         this.name = name;
     }
-
     getName(){
         return this.name;
     }
-
 }
 
 class Student extends Person{
@@ -87,4 +85,27 @@ class Student extends Person{
 }
 
 const s1 = new Student('alamin', 2);
-console.log(s1.getName());
+console.log(s1.getName()); */
+
+/* let check = true;
+const test = new Promise((resolve, reject)=>{
+    //console.log('testing if promise works');
+    //setTimeout(()=>{
+        if(check == true)
+            resolve('testing my promise...')
+        else
+            reject(`can't keep promise`);
+    //}, 3000);
+});
+
+test
+    .then((data)=>{console.log(data)})
+    .catch((error)=>{console.log(error)})
+console.log('testing another task...'); */
+
+
+// async function myfun(){
+//     let result = await test(); 
+//     console.log(result)
+// }
+
