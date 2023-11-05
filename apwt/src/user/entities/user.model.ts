@@ -1,3 +1,5 @@
+
+
 export class User{
-    constructor(public sName, public sId, public sEmail){}
+    constructor(private sName: string, private sId: string, private sEmail: string){}
 }
